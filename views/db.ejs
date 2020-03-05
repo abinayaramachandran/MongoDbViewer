@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<% items.flat().forEach(function(item) { %>
+<ul class="user-info">
+    <li>first name: <%= item.first_name%> last name: <%= item.last_name%> email: <%= item.email%> </li>
+</ul>
+<% })%>
+
+</body>
+</html>
