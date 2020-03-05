@@ -7,8 +7,9 @@
 <body>
 <% items.flat().forEach(function(item) { %>
 <ul class="user-info">
-    <li>first name: <%= item.first_name%> last name: <%= item.last_name%> email: <%= item.email%> </li>
-</ul>
+<!--    <li>first name: <%= item.first_name%> last name: <%= item.last_name%> email: <%= item.first_name%> </li>-->
+    <li> <%= item.first_name%>  "-" <%= item.first_name%> </li>
+</ul>+
 <% })%>
 
 </body>
